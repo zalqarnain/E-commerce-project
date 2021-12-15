@@ -1,0 +1,13 @@
+.formBox {
+    width: 50%;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+input {
+    width: 90%;
+    border-radius: 5px;
+}

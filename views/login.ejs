@@ -1,0 +1,22 @@
+<% layout('layouts/boilerplate') %> 
+
+<h1 class="text-center">Login To Your Account</h1>
+
+<div class="formBox">
+    <form action="/login" method="post">
+        <div class="row">
+            <div class="col mb-3">
+                <input type="text" name="email" id="email" placeholder="Email">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col mb-3">
+                <input type="password" name="userPassword" id="userPassword" placeholder="Password">
+            </div>
+        </div>
+        
+        <button type="submit" class="btn btn-lg btn-success">Login</button>
+        <a href="/register" class="btn btn-lg btn-success">Not A User?</a>
+    </form>
+</div>
